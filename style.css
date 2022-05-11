@@ -22,11 +22,50 @@ height: 200px; ;
 margin: 40px;
 
 }
-.car1{
-width: 100px; ;
-height:150px ;
-z-index: 10;
-position: fixed;
-top:10px;
-right: 50vw;
+.carright{
+    width: 100px; ;
+    height:150px ;
+    z-index: 100000000s
+    ;
+    position: fixed;
+    top:50px;
+    right: 36vw;
 }
+.carleft{ 
+       width: 100px; ;
+    height:150px ;
+    z-index: 100000000s
+    ;
+    position: fixed;
+    top:50px;
+    right: 55vw;}
+.carcenter{
+    width: 100px; ;
+    height:150px ;
+    z-index: 100000000s
+    ;
+    position: fixed;
+    top:50px;
+    right:46.3vw;
+}
+
+.arrow1{
+background-color: blue;
+
+width: 150px;
+height: 60px;
+position: fixed;
+top: 90vh;
+
+left:57vw ;
+}
+.arrow2{
+
+width: 150px;
+height: 60px;
+    background-color: red;
+    position: fixed;
+    top: 90vh;
+    right:57vw ;
+}
+
